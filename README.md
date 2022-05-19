@@ -1,3 +1,7 @@
 # Constructing-Risk-Profiles-for-Cervical-Cancer
 
 Final Project for COMS W4995: Applied Machine Learning (Spring 2022)
+
+Cervical cancer affects nearly 200,000 women per year in the United States alone. With the introduction of the HPV vaccine this number has gone down drastically, but it still remains prevalent and often goes undetected, especially in developing countries. We used a behavioral dataset to identify patterns that put women at a greater risk of contracting cervical cancer. Preliminary data analysis revealed that the age of first sexual encounter might be one of the many risk factors associated with it. 
+
+Decision tree based ML techniques like Random Forest and XGBoost, to name a few, were trained to predict cancer incidence i.e. the results of four diagnostic tests - Hinselmann, Biopsy, Schiller and Cytology, and extract features of importance. Random forests performed the best except for predicting the outcomes of Schiller test results. XGBoost had the highest accuracy for Schiller. All models consistently predicted HPV infection and pelvic inflammatory disease to be among the most important indicators of high risk of cancer in conjunction with what past medical research has shown. Feature importance can be leveraged to construct risk profiles to help healthcare institutions and doctors identify "at-risk" individuals who should receive immediate medical attention.
